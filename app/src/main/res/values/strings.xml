@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CovidInfo</string>
+    <string name="title_home">Home</string>
+    <string name="title_country">Country</string>
+    <string name="title_poster">Poster</string>
+    <string name="title_web">Website</string>
+    <string name="title_info">Information</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="s1_title">HOME</string>
+    <string name="desc_s1">Memberikan informasi total kasus covid-19</string>
+    <string name="s2_title">COUNTRY</string>
+    <string name="desc_s2">Memberikan informasi kasus covid-19 di setiap negara</string>
+    <string name="s3_title">POSTER</string>
+    <string name="desc_s3">Memberikan informasi penanganan covid-19</string>
+    <string name="s4_title">Newss</string>
+    <string name="desc_s4">Baca berita resmi covid-19 Republik Indonesia</string>
+    <string name="s5_title">Information</string>
+    <string name="desc_s5">Menyediakan informasi kontak terkait penanganan Covid-19</string>
+    <string name="hospital1">RSUD Siti Fatimah \nProvinsi Sumatera Selatan</string>
+    <string name="phone1">07115178883</string>
+    <string name="logout">Logout</string>
+    <string name="phone2">0813 8837 6955</string>
+    <string name="text1">Panggilan Darurat</string>
+    <string name="kota1">Jawa Barat</string>
+    <string name="alamat1">Jl. Kol. H. Burlian Km 6 Kel. Sukabangun\n Kec.Sukarami, Palembang 30151</string>
+    <string name="judul1">Berikut daftar kontak penting \nterkait penanganan Covid-19</string>
+    <string name="phone3">031 8430313</string>
+    <string name="alamat2">Jl. Mayjend Harun Sohar II No.28 Lahat</string>
+    <string name="todo">TODO</string>
+    <string name="kota3">Jakarta</string>
+    <string name="kota4">RSUD Kayuagung</string>
+    <string name="hospital2">RSUD Lahat</string>
+</resources>

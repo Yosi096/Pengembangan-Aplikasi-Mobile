@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "12891842536",
+    "firebase_url": "https://covidinfo-4631a.firebaseio.com",
+    "project_id": "covidinfo-4631a",
+    "storage_bucket": "covidinfo-4631a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12891842536:android:70b00e75ca4f98bd77265d",
+        "android_client_info": {
+          "package_name": "yosi.covidinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12891842536-133jr2u6qr3kf5f4ttpstrpb17l427fj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yosi.covidinfo",
+            "certificate_hash": "dbc8de0df8d0aaa2633abfdaab8887be93c8e472"
+          }
+        },
+        {
+          "client_id": "12891842536-qjjg0esr4tk241alne3225mmcgl0k885.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk1iKZ1A7ahEoiolskyC8JsX5Glu2wv0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12891842536-qjjg0esr4tk241alne3225mmcgl0k885.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

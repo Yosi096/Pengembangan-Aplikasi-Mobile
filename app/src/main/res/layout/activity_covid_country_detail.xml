@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    tools:context=".ui.country.CovidCountryDetail">
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:id="@+id/llDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DetailCountryName"
+            style="@style/TotalFS"
+            android:textColor="@color/white"
+            android:text="Indonesia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llDetail"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Cases"
+                style="@style/LabelFS"/>
+            <TextView
+                android:id="@+id/totalCases2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:text="876"
+                style="@style/TotalFS"
+                android:textColor="@color/total"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Cases"
+                style="@style/LabelFS"/>
+            <TextView
+                android:id="@+id/totalCasesToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:layout_marginTop="-10dp"
+                style="@style/TotalFS"
+                android:textColor="@color/total"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDeath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llCases"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Death"
+                style="@style/LabelFS"/>
+
+            <TextView
+                android:id="@+id/totalDeath"
+                style="@style/TotalFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="86"
+                android:layout_marginTop="-10dp"
+                android:textColor="@color/meninggal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Death"
+                style="@style/LabelFS"/>
+
+            <TextView
+                android:id="@+id/totalDeathToday"
+                style="@style/TotalFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:layout_marginTop="-10dp"
+                android:textColor="@color/meninggal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llDeath"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Recovered"
+                style="@style/LabelFS"/>
+            <TextView
+                android:id="@+id/totalRecovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="576"
+                android:layout_marginTop="-10dp"
+                style="@style/TotalFS"
+                android:textColor="@color/sembuh"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Active"
+                style="@style/LabelFS"/>
+            <TextView
+                android:id="@+id/totalActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="76"
+                android:layout_marginTop="-10dp"
+                style="@style/TotalFS"
+                android:textColor="@color/sembuh"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llRecovered"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Critical"
+                style="@style/LabelFS"/>
+            <TextView
+                android:id="@+id/totalCritical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="76"
+                android:layout_marginTop="-10dp"
+                style="@style/TotalFS"
+                android:textColor="@color/today"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continent" />
+
+            <TextView
+                android:id="@+id/totalContinent"
+                style="@style/TotalFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asia"
+                android:layout_marginTop="-10dp"
+                android:textColor="@color/today" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

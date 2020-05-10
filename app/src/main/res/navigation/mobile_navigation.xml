@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="yosi.covidinfo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_country"
+        android:name="yosi.covidinfo.ui.country.CountryFragment"
+        android:label="@string/title_country"
+        tools:layout="@layout/fragment_country" />
+
+    <fragment
+        android:id="@+id/navigation_poster"
+        android:name="yosi.covidinfo.ui.poster.PosterFragment"
+        android:label="@string/title_poster"
+        tools:layout="@layout/fragment_poster" />
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="yosi.covidinfo.ui.info.InfoFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/navigation_web"
+        android:name="yosi.covidinfo.ui.web.WebFragment"
+        android:label="@string/title_web"
+        tools:layout="@layout/fragment_web" />
+</navigation>

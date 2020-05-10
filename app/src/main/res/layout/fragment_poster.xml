@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="5dp"
+    tools:context=".ui.poster.PosterFragment">
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewFlilpper">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView1"
+            android:src="@drawable/test5"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView2"
+            android:src="@drawable/poster1"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView3"
+            android:src="@drawable/poster2"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView4"
+            android:src="@drawable/poster3"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView5"
+            android:src="@drawable/poster4"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView6"
+            android:src="@drawable/poster5"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView7"
+            android:src="@drawable/poster6"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView8"
+            android:src="@drawable/poster7"/>
+    </ViewFlipper>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_poster1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/bottom2"
+            android:text="Prev"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/bottom2"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+
+</RelativeLayout>
